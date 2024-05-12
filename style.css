@@ -288,6 +288,25 @@ ul a{
     display: flex;
     align-items: center;
 }
+.arrow{
+    display: inline-block;
+    font-size: 2.5rem;
+    position: absolute;
+    padding: 15px 8px 15px 8px;
+    
+}
+.arrow:hover{
+    border: #DDDDDD solid 2px ;
+    background-color: rgb(255, 255, 255,0.5);
+}
+.arrow1{
+   top: 250px;
+   left:50px;
+}
+.arrow2{
+    top: 250px;
+    right:50px;
+}
 .updown-arrow{
     display: flex;
     flex-direction: column;
